@@ -15,6 +15,12 @@ Proyecto desarrollado con NestJS + TypeORM + PostgreSQL.
 
 ---
 
+# 🐘 Crear base de datos PostgreSQL
+
+```sql
+CREATE DATABASE tienda_db;
+```
+
 # 📦 Instalación del proyecto
 
 ## 1️⃣ Clonar repositorio
