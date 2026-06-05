@@ -10,10 +10,4 @@ export class AppController {
       documentacion: "https://tienda-backend-0sj2.onrender.com/api",
     }
    }
-  constructor(private readonly appService: AppService) {}
-
-  @Get()
-  getHello(): string {
-    return this.appService.getHello();
-  }
 }
