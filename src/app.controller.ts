@@ -10,4 +10,7 @@ export class AppController {
       documentacion: "/api",
     }
    }
+   @Get()
+   getHello() {
+    return 'Hello World!';}
 }
